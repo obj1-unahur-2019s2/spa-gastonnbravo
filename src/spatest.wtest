@@ -1,0 +1,22 @@
+import personas.*
+import spa.*
+
+test "Atender a todo el mundo" {
+	
+
+	
+	//bruno
+	
+	assert.that(bruno.esFeliz())
+	assert.equals(55000, bruno.peso())
+	assert.notThat(bruno.tieneSed())
+	
+	//ramiro
+	
+	assert.equals(0, ramiro.nivelContractura())
+	assert.that(ramiro.grasaEnPiel())
+	
+
+	
+
+}

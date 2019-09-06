@@ -40,6 +40,7 @@ object ramiro {
 	
 	method recibirMasajes() { return -2 }//cambiar
 	method darseUnBanioDeVapor() { pielGrasosa = false }
+	method grasaEnPiel(){return pielGrasosa}
 	method comerseUnBigMac() {return pielGrasosa }
 	method nivelContractura(){return contractura}
 	method bajarALaFosa() {return pielGrasosa and contractura + 1  }
